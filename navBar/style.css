@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header nav {
+  height: 10vh;
+  background-color: #777;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul .fontStyle li {
+  list-style-type: none;
+  margin: 1rem 2rem;
+}
+header nav ul .fontStyle li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+header nav ul .fontStyle li a:hover {
+  color: white;
+  border-bottom: 3px solid white;
+}
+header nav ul .fontStyle li button {
+  color: white;
+  background-color: black;
+  font-size: 1.15rem;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+}
+header nav ul .navLeftside {
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: flex-start;
+}
+header nav ul .navRightside {
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: flex-end;
+}/*# sourceMappingURL=style.css.map */
