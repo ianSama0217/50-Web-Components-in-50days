@@ -1,0 +1,59 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .box {
+  width: 20vw;
+  height: auto;
+  padding-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 5px 6px 6px #777;
+}
+body .box .imgBox img {
+  width: 100%;
+  border-radius: 8px;
+  transition: all 0.5s ease;
+}
+body .box .imgBox img:hover {
+  cursor: pointer;
+}
+body .box .imgBox img:active {
+  transform: scale(3);
+}
+body .box .textBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .box .textBox h3 {
+  font-size: 1.5rem;
+}
+body .box .textBox p {
+  font-size: 1.15rem;
+  line-height: 1.25rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+body .box .textBox a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: black;
+  padding: 0.25rem 1rem;
+  border-radius: 8px;
+  border: 1px solid red;
+  transition: all 0.5s ease;
+}
+body .box .textBox a:hover {
+  background-color: red;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
