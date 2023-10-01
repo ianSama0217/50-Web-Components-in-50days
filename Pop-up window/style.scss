@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  button {
+    background-color: rgb(255, 110, 110);
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 8px;
+    border: none;
+
+    transition: all 0.5s ease;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+
+  .popUpWindow {
+    display: none;
+    background-color: rgba(136, 136, 136, 0.7);
+    border-radius: 8px;
+    padding: 2rem;
+    position: absolute;
+
+    form {
+      display: flex;
+      flex-flow: column wrap;
+
+      label {
+        font-size: 1.15rem;
+        margin: 1rem 0.25rem;
+      }
+
+      input {
+        font-size: 1.15rem;
+        margin: 0.15rem;
+        height: 1.5rem;
+        border: none;
+        border-radius: 8px;
+        padding: 0 1rem;
+      }
+
+      button {
+        width: 8rem;
+      }
+    }
+  }
+}
