@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: normal;
+}
+
+body {
+  height: 100vh;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+body #addBtn {
+  background-color: rgb(183, 83, 83);
+  color: white;
+  font-size: 1.5rem;
+  padding: 0.5rem 2rem;
+  margin-top: 2rem;
+  border-radius: 8px;
+  border: none;
+  transition: all 0.5s ease;
+}
+body #addBtn:hover {
+  background-color: rgb(249, 171, 171);
+  color: black;
+}
+body .listArea {
+  margin-top: 2rem;
+  height: 80vh;
+  border: 0px solid blue;
+}
+body .listArea .list {
+  border: 0px solid red;
+  border-radius: 8px;
+  background-color: white;
+  width: 35vw;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+body .listArea .list .textValue {
+  font-size: 1.25rem;
+  margin-top: 0.3rem;
+}
+body .listArea .list .moneyValue {
+  font-size: 1.25rem;
+  margin-top: 0.3rem;
+}
+body .listArea .list .trashBtn {
+  width: 6rem;
+  font-size: 1.25rem;
+  background-color: rgb(75, 109, 246);
+  color: white;
+  padding: 0.25rem;
+  border-radius: 8px;
+  border: none;
+  transition: all 0.5s ease;
+}
+body .listArea .list .trashBtn:hover {
+  background-color: rgb(166, 183, 254);
+  color: black;
+}
+
+.remove {
+  transition: all 0.5s ease;
+  transform: scale(0);
+}/*# sourceMappingURL=style.css.map */
