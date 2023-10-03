@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body button {
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem;
+  background-color: white;
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  transition: all 0.5s ease;
+}
+body button img {
+  width: 4rem;
+}
+body button:hover {
+  border: 5px solid #777;
+}/*# sourceMappingURL=style.css.map */
